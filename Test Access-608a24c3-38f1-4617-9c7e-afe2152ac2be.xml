@@ -1,0 +1,28 @@
+<joblist>
+  <job>
+    <description></description>
+    <dispatch>
+      <excludePrecedence>true</excludePrecedence>
+      <keepgoing>false</keepgoing>
+      <rankOrder>ascending</rankOrder>
+      <successOnEmptyNodeFilter>false</successOnEmptyNodeFilter>
+      <threadcount>1</threadcount>
+    </dispatch>
+    <executionEnabled>true</executionEnabled>
+    <id>608a24c3-38f1-4617-9c7e-afe2152ac2be</id>
+    <loglevel>INFO</loglevel>
+    <name>Test Access</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <nodefilters>
+      <filter>.*</filter>
+    </nodefilters>
+    <nodesSelectedByDefault>true</nodesSelectedByDefault>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ls -ltr</exec>
+      </command>
+    </sequence>
+    <uuid>608a24c3-38f1-4617-9c7e-afe2152ac2be</uuid>
+  </job>
+</joblist>
