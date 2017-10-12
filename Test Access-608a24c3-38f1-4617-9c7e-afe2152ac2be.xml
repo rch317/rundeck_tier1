@@ -1,6 +1,6 @@
 <joblist>
   <job>
-    <description></description>
+    <description>test job</description>
     <dispatch>
       <excludePrecedence>true</excludePrecedence>
       <keepgoing>false</keepgoing>
